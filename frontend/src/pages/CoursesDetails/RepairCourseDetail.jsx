@@ -5,11 +5,7 @@ function RepairCourseDetail() {
   return (
     <>
       <div className="lg:h-[500px]">
-        <img
-          src="../../public/a12.jpg"
-          className="h-full w-full object-cover"
-          alt=""
-        />
+        <img src="/a12.jpg" className="h-full w-full object-cover" alt="" />
       </div>
 
       <section className="bg-[#f8f7f5] text-[#334155] px-6 lg:px-12 py-16">

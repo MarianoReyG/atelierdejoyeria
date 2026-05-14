@@ -6,7 +6,7 @@ function InitialCourseDetail() {
   return (
     <>
       <div className="lg:h-[550px]">
-        <img src="a26.jpeg" className="h-full w-full object-cover" alt="" />
+        <img src="/a26.jpeg" className="h-full w-full object-cover" alt="" />
       </div>
 
       <section className="bg-[#f8f7f5] text-[#334155] px-6 lg:px-12 py-16">

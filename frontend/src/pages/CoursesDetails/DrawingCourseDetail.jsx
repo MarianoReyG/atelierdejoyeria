@@ -5,7 +5,7 @@ import { FaWhatsapp } from "react-icons/fa";
 function DrawingCourseDetail() {
   return (
     <>
-      <div className="h-[500px]">
+      <div className="lg:h-[500px]">
         <img src="/a25.jpeg" className="h-full w-full object-cover" alt="" />
       </div>
       <section className="bg-[#f8f7f5] text-[#334155] px-6 lg:px-12 py-16">

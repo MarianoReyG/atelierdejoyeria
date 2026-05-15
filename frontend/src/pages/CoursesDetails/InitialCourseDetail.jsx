@@ -38,7 +38,8 @@ function InitialCourseDetail() {
                 7 a 8 meses).
               </p>
               <p>
-                <strong>Primera clase gratuita</strong>
+                Podés comenzar en cualquier momento del año.{" "}
+                <strong>Primera clase gratuita.</strong>
               </p>
             </section>
 
@@ -91,10 +92,6 @@ function InitialCourseDetail() {
               <p className="mt-4 text-gray-700 leading-relaxed">
                 El programa es abierto: lo diseñamos juntos/as según los
                 proyectos que quieras desarrollar.
-              </p>
-
-              <p className="mt-4 font-bold">
-                Podés comenzar en cualquier momento del año.
               </p>
             </section>
 

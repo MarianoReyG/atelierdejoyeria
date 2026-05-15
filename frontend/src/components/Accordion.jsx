@@ -22,19 +22,19 @@ export default function Accordion() {
       id: 3,
       question: "¿Qué materiales incluye el curso?",
       answer:
-        "El primer trabajo incluye los materiales (alpaca, cobre o bronce) y las herramientas. Para los siguientes proyectos, cada alumnx deberá traer sus materiales. Te doy una guía completa de proveedores y también podés comprarlos en el taller según disponibilidad.",
+        "El primer trabajo incluye los materiales (alpaca, cobre o bronce) y las herramientas. Para los siguientes proyectos, cada alumno deberá traer sus materiales. Te doy una guía completa de proveedores y también podés comprarlos en el taller según disponibilidad. Cursando en el Atelier tenes descuentos en: Casa Wasser, Casa Arwas y Herramientas FMR",
     },
     {
       id: 4,
       question: "¿Puedo trabajar con plata o gemas?",
       answer:
-        "Sí, podés traer tus propias piedras o plata, o adquirirlas en el taller, según la disponibilidad. También te voy a guiar sobre dónde conseguir buenos proveedores si preferís comprarlas por tu cuenta.",
+        "Sí, podés traer tus propias piedras o plata, o adquirirlas en el taller, según disponibilidad. También te voy a guiar sobre dónde conseguir buenos proveedores si preferís comprarlas por tu cuenta.",
     },
     {
       id: 5,
-      question: "¿Cuánto dura el curso?",
+      question: "¿Cuánto dura el Taller Regular?",
       answer:
-        "No hay una duración fija. Cada persona avanza a su ritmo. El primer proyecto suele llevar entre 4 y 6 clases, dependiendo de tu tiempo y dedicación.",
+        "No hay una duración fija. Cada persona avanza a su ritmo. El primer proyecto suele llevar entre 3 y 5 clases, dependiendo de tu tiempo y dedicación. Recomiento un minimo de 7 u 8 meses.",
     },
     {
       id: 6,
@@ -52,7 +52,7 @@ export default function Accordion() {
       id: 8,
       question: "¿Cómo me inscribo?",
       answer:
-        "Podés escribirme directamente desde el formulario de contacto de esta página, por redes sociales o por WhatsApp. Te voy a responder lo antes posible con toda la info para reservar tu lugar.",
+        "Podés escribirme por redes sociales o por WhatsApp. Te voy a responder lo antes posible con toda la info para reservar tu lugar y probar la primer clase gratis.",
     },
   ];
 

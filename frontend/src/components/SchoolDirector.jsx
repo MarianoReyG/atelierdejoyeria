@@ -22,9 +22,9 @@ function SchoolDirector() {
 
         <div className="w-full lg:w-[45%] order-2 lg:order-1">
           <img
-            src="/pipo.jpeg"
+            src="/pipo2.jpg"
             alt=""
-            className="w-full h-[300px] md:h-[450px] object-cover rounded-xl"
+            className="w-full  object-cover rounded-xl"
           />
         </div>
       </div>

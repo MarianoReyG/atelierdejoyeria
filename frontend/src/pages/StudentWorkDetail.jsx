@@ -12,7 +12,6 @@ function StudentWorkDetail() {
       bigImage: "/a23.jpg",
       image1: "/a21.jpg",
       image2: "/a2.jpg",
-      result: "/a22.jpg",
     },
 
     {
@@ -24,7 +23,6 @@ function StudentWorkDetail() {
       bigImage: "/a5.jpg",
       image1: "/a8.jpg",
       image2: "/a3.jpg",
-      result: "/a18.jpg",
     },
   ];
 
@@ -46,21 +44,21 @@ function StudentWorkDetail() {
   };
 
   return (
-    <section className="py-24 px-6 lg:px-12 bg-[#f8f7f5] text-[#334155]">
-      <div className="max-w-7xl mx-auto space-y-32">
+    <section className="py-12 px-6 lg:px-12 bg-[#f8f7f5] text-[#334155]">
+      <div className="max-w-7xl mx-auto space-y-16">
         <motion.div
           initial="hidden"
           whileInView="show"
           viewport={{ once: true, amount: 0.3 }}
           variants={fadeUp}
-          className="max-w-2xl"
+          className="max-w-5xl"
         >
           <p className="uppercase tracking-[0.2em] text-sm text-gray-500 mb-4">
             Trabajos de alumnos
           </p>
 
           <h1 className="text-5xl lg:text-7xl font-[clashDisplay] leading-[1.05]">
-            Procesos y piezas creadas en el Atelier
+            Procesos de piezas creadas en el Atelier
           </h1>
 
           <div className="w-16 h-[2px] bg-gray-300 my-8"></div>
@@ -81,17 +79,17 @@ function StudentWorkDetail() {
             variants={fadeUp}
             className="space-y-10"
           >
-            <div className="max-w-2xl space-y-5">
-              <p className="text-sm uppercase tracking-[0.15em] text-gray-400">
-                Proyecto {index + 1}
-              </p>
+            <div className="max-w-2xl space-y-3">
+              {/* <p className="text-lg uppercase tracking-[0.15em] text-gray-600">
+                Dije conejo de bronce
+              </p> */}
 
-              <h2 className="text-3xl lg:text-5xl font-[clashDisplay] leading-tight">
-                {project.title}
+              <h2 className="text-3xl lg:text-4xl font-[clashDisplay] leading-tight">
+                Dije conejo de bronce
               </h2>
 
-              <p className="text-gray-600 leading-relaxed text-base lg:text-lg">
-                {project.description}
+              <p className="text-gray-400 leading-relaxed text-base lg:text-lg">
+                Autor/a: Laura Tortoriello
               </p>
             </div>
 
@@ -169,26 +167,6 @@ function StudentWorkDetail() {
                 </motion.div>
               </div>
             </div>
-
-            <motion.div
-              whileHover={{ scale: 1.01 }}
-              transition={{
-                duration: 0.6,
-                ease: [0.22, 1, 0.36, 1],
-              }}
-              className="overflow-hidden rounded-[2rem]"
-            >
-              <img
-                src={project.result}
-                alt=""
-                className="
-                  w-full 
-                  h-[400px] lg:h-[650px]
-                  object-cover
-                  will-change-transform
-                "
-              />
-            </motion.div>
           </motion.article>
         ))}
       </div>

@@ -46,7 +46,7 @@ function StudentWorkDetail() {
   };
 
   return (
-    <section className="py-24 px-6 lg:px-12 bg-white text-[#334155]">
+    <section className="py-24 px-6 lg:px-12 bg-[#f8f7f5] text-[#334155]">
       <div className="max-w-7xl mx-auto space-y-32">
         <motion.div
           initial="hidden"

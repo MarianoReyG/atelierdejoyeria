@@ -18,8 +18,8 @@ function RepairCourseDetail() {
 
               <p className="mt-6 text-lg text-gray-600 leading-relaxed">
                 Un workshop intensivo para aprender técnicas básicas de joyería
-                mientras reparás esas piezas que dejaste de usar y les devolvés
-                una nueva vida.
+                mientras reparás esas piezas dañadas que dejaste de usar y les
+                das una nueva vida.
               </p>
             </div>
 
@@ -33,7 +33,7 @@ function RepairCourseDetail() {
               <p>
                 Las prácticas se adaptan a cada pieza, para que puedas reparar
                 cierres, cadenas, aros, dijes, anillos o pulseras mientras
-                incorporás herramientas básicas de joyería.
+                incorporás tecnicas básicas de joyería.
               </p>
 
               <p>
@@ -48,7 +48,7 @@ function RepairCourseDetail() {
               </h2>
               <ul className="list-disc pl-5 space-y-4 text-gray-700">
                 <li>
-                  Duración: <strong>3 horas</strong>, 1 sola vez.
+                  Duración: <strong>3 horas</strong>, 1 encuentro.
                 </li>
                 <li>
                   Cupo máximo: <strong>5 estudiantes</strong> por clase.
@@ -63,7 +63,7 @@ function RepairCourseDetail() {
 
               <div className="space-y-4 text-gray-700 leading-relaxed">
                 <p c>
-                  <strong>Sábado 15 de junio · 14:00 a 17:00 hs</strong>
+                  <strong>Sábado 23 de Mayo · 15:00 a 18:00 hs</strong>
                 </p>
 
                 <p>
@@ -104,7 +104,7 @@ function RepairCourseDetail() {
                 <div className="mt-8 text-gray-700">
                   <p className="text-sm text-gray-500 mb-5">Fecha</p>
                   <p>
-                    <strong>Sábado 15 de junio · 14:00 a 17:00 hs</strong>
+                    <strong>Sábado 23 de Mayo · 15:00 a 18:00 hs</strong>
                   </p>
                 </div>
 

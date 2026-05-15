@@ -40,8 +40,8 @@ function Workshops() {
             </h3>
 
             <p className="text-base text-gray-600 leading-relaxed">
-              Empezá desde cero y diseñá tus propias piezas. Clases semanales de
-              2:30 hs, con cupos reducidos y acompañamiento personalizado.
+              Empezá desde cero y diseñá tus propias piezas. Explora tecnicas
+              tradicionales y desarrolla tus propios diseños a tu ritmo
             </p>
 
             <p className="text-sm font-medium text-gray-500">

@@ -26,13 +26,18 @@ function DrawingCourseDetail() {
             <section className="mt-6 space-y-5 text-gray-700 leading-relaxed">
               <p>
                 A lo largo de las clases vas a trabajar distintas técnicas de
-                dibujo aplicadas al diseño de joyas, desde el boceto inicial
-                hasta el desarrollo del proyecto final.
+                dibujo aplicadas al diseño de joyas, desde el boceto inicial,
+                planteo de perspectivas, vistas aclaratorias, luces y sombras
+                para el desarrollo de tus proyectos.
               </p>
               <p>
-                No hace falta experiencia previa. El objetivo es que puedas
-                construir un lenguaje propio para diseñar y comunicar tus ideas
-                con claridad.
+                <strong>No hace falta experiencia previa.</strong> El objetivo
+                es que puedas construir un lenguaje propio para diseñar y
+                comunicar tus ideas con claridad.
+              </p>
+              <p className="mt-4">
+                Podés comenzar en cualquier momento del año.{" "}
+                <strong>Primera clase gratuita.</strong>
               </p>
             </section>
             <section className="mt-16">
@@ -50,22 +55,7 @@ function DrawingCourseDetail() {
                   Cupo máximo de <strong>5 estudiantes</strong> por clase.
                 </li>
 
-                <li>Incluye herramientas durante todo el curso.</li>
-
-                <li>
-                  Primer trabajo con materiales incluidos (alpaca, cobre y/o
-                  bronce).
-                </li>
-
-                <li>
-                  Luego, cada estudiante podrá traer sus materiales o
-                  adquirirlos en el taller.
-                </li>
-
-                <li>
-                  Si querés trabajar con plata o piedras, podés traerlas o
-                  comprarlas según disponibilidad.
-                </li>
+                <li>Incluye materiales durante todo el curso.</li>
               </ul>
             </section>
 
@@ -80,12 +70,8 @@ function DrawingCourseDetail() {
               </p>
 
               <p className="mt-4 text-gray-700 leading-relaxed">
-                El programa es abierto: lo diseñamos juntos/as según los
-                proyectos que quieras desarrollar.
-              </p>
-
-              <p className="mt-4 font-bold">
-                Podés comenzar en cualquier momento del año.
+                El programa es abierto: lo diseñamos juntos/as según los dibujos
+                que quieras desarrollar.
               </p>
             </section>
             <section className="mt-16">
@@ -95,29 +81,29 @@ function DrawingCourseDetail() {
 
               <div className="grid sm:grid-cols-2 gap-x-10 gap-y-3 text-gray-700">
                 <p>
-                  <strong>Lunes:</strong> 14:00–16:30 / 17:30–20:00
+                  <strong>Lunes:</strong> 17:30–20:00
                 </p>
 
-                <p>
+                {/* <p>
                   <strong>Martes:</strong> 10:00–12:30 / 14:00–16:30 /
                   17:30–20:00
-                </p>
+                </p> */}
 
                 <p>
-                  <strong>Miércoles:</strong> 14:00–16:30 / 17:30–20:00
+                  <strong>Miércoles:</strong> 17:30–20:00
                 </p>
 
-                <p>
+                {/* <p>
                   <strong>Jueves:</strong> 10:00–12:30 / 14:00–16:30 /
                   17:30–20:00
                 </p>
 
                 <p>
                   <strong>Viernes:</strong> 14:00–16:30 / 17:30–20:00
-                </p>
+                </p> */}
 
                 <p>
-                  <strong>Sábados:</strong> 10:00–12:30 / 14:00–16:30
+                  <strong>Sábados:</strong> 14:00–16:30
                 </p>
               </div>
 
@@ -150,8 +136,8 @@ function DrawingCourseDetail() {
                   </h3>
 
                   <p className="mt-5 text-gray-600 leading-relaxed">
-                    Conocé el espacio, las herramientas y cómo funcionan las
-                    clases antes de empezar.
+                    Conocé el espacio, las tecnicas y cómo funcionan las clases
+                    antes de empezar.
                   </p>
                 </div>
 

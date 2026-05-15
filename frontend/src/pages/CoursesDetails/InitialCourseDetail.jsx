@@ -37,9 +37,12 @@ function InitialCourseDetail() {
                 del tiempo que decidas dedicar al curso (recomendado: mínimo de
                 7 a 8 meses).
               </p>
+              <p>
+                <strong>Primera clase gratuita</strong>
+              </p>
             </section>
 
-            <section className="mt-16">
+            <section className="mt-14">
               <h2 className="text-2xl font-[clashDisplay] mb-6">
                 Modalidad de las clases
               </h2>
@@ -54,7 +57,9 @@ function InitialCourseDetail() {
                   Cupo máximo de <strong>5 estudiantes</strong> por clase.
                 </li>
 
-                <li>Incluye herramientas durante todo el curso.</li>
+                <li>
+                  <strong>Incluye herramientas durante todo el curso.</strong>
+                </li>
 
                 <li>
                   Primer trabajo con materiales incluidos (alpaca, cobre y/o

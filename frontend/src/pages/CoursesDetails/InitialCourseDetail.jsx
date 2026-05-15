@@ -100,7 +100,30 @@ function InitialCourseDetail() {
                 Horarios disponibles
               </h2>
 
-              <div className="grid sm:grid-cols-2 gap-x-10 gap-y-3 text-gray-700">
+              <div className="grid sm:grid-cols-2 gap-x-10 gap-y-3 text-gray-700 md:hidden">
+                <p>
+                  <strong>Lunes:</strong> 14:00–16:30
+                </p>
+                <p>
+                  <strong>Martes:</strong> 10:00–12:30 / 14:00–16:30 /
+                  17:30–20:00
+                </p>
+                <p>
+                  <strong>Miércoles:</strong> 14:00–16:30
+                </p>
+                <p>
+                  <strong>Jueves:</strong> 10:00–12:30 / 14:00–16:30 /
+                  17:30–20:00
+                </p>
+                <p>
+                  <strong>Viernes:</strong> 14:00–16:30 / 17:30–20:00
+                </p>
+                <p>
+                  <strong>Sábados:</strong> 10:00–12:30
+                </p>
+              </div>
+
+              <div className="hidden md:grid sm:grid-cols-2 gap-x-10 gap-y-3 text-gray-700 ">
                 <p>
                   <strong>Lunes:</strong> 14:00–16:30
                 </p>

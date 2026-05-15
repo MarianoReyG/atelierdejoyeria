@@ -102,29 +102,25 @@ function InitialCourseDetail() {
 
               <div className="grid sm:grid-cols-2 gap-x-10 gap-y-3 text-gray-700">
                 <p>
-                  <strong>Lunes:</strong> 14:00–16:30 / 17:30–20:00
+                  <strong>Lunes:</strong> 14:00–16:30
                 </p>
-
-                <p>
-                  <strong>Martes:</strong> 10:00–12:30 / 14:00–16:30 /
-                  17:30–20:00
-                </p>
-
-                <p>
-                  <strong>Miércoles:</strong> 14:00–16:30 / 17:30–20:00
-                </p>
-
                 <p>
                   <strong>Jueves:</strong> 10:00–12:30 / 14:00–16:30 /
                   17:30–20:00
                 </p>
-
+                <p>
+                  <strong>Martes:</strong> 10:00–12:30 / 14:00–16:30 /
+                  17:30–20:00
+                </p>
                 <p>
                   <strong>Viernes:</strong> 14:00–16:30 / 17:30–20:00
                 </p>
+                <p>
+                  <strong>Miércoles:</strong> 14:00–16:30
+                </p>
 
                 <p>
-                  <strong>Sábados:</strong> 10:00–12:30 / 14:00–16:30
+                  <strong>Sábados:</strong> 10:00–12:30
                 </p>
               </div>
 
@@ -183,7 +179,7 @@ function InitialCourseDetail() {
 
                 <div className="mt-14 flex">
                   <a
-                    href="https://wa.me/1168492381"
+                    href="https://wa.me/5491168492381"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 border border-[#334155] px-7 py-3 hover:bg-[#334155] hover:text-white transition rounded-sm"

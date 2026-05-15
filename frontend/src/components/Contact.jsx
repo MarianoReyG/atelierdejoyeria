@@ -66,7 +66,7 @@ function Contact() {
           >
             <motion.a
               variants={item}
-              href="https://wa.me/1168492381"
+              href="https://wa.me/5491168492381"
               target="_blank"
               whileHover={{
                 y: -4,

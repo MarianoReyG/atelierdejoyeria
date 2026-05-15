@@ -120,7 +120,7 @@ function RepairCourseDetail() {
 
                 <div className="mt-14 flex">
                   <a
-                    href="https://wa.me/1168492381"
+                    href="https://wa.me/5491168492381"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 border border-[#334155] px-7 py-3 hover:bg-[#334155] hover:text-white transition rounded-sm"

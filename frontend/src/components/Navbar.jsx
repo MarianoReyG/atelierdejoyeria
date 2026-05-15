@@ -1,33 +1,39 @@
 import React from "react";
 import { useState, useEffect, useRef } from "react";
 import Icon from "./svgs/Icon";
-import MenuIcon from "./svgs/MenuIcon";
-import { Link } from "react-router";
+import { Link, useLocation, useNavigate } from "react-router";
 import { HiOutlineMenuAlt3, HiOutlineX } from "react-icons/hi";
 import { AnimatePresence, motion } from "framer-motion";
-import { useLocation } from "react-router";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
+
   const menuRef = useRef(null);
+
   const location = useLocation();
+  const navigate = useNavigate();
+
   const navLinks = [
     {
       label: "Talleres",
       href: "#talleres",
     },
+
     {
       label: "Sobre Atelier",
       href: "#sobre-atelier",
     },
+
     {
       label: "Trabajos de alumnos",
       href: "#trabajos-alumnos",
     },
+
     {
       label: "Preguntas frecuentes",
       href: "#preguntas-frecuentes",
     },
+
     {
       label: "Contacto",
       href: "#contacto",
@@ -48,7 +54,15 @@ function Navbar() {
     };
   }, []);
 
-  const scrollToSection = (id) => {
+  const scrollToSection = async (id) => {
+    if (location.pathname !== "/") {
+      navigate(`/#${id}`);
+
+      setIsOpen(false);
+
+      return;
+    }
+
     const section = document.getElementById(id);
 
     if (section) {
@@ -62,6 +76,25 @@ function Navbar() {
 
     setIsOpen(false);
   };
+
+  useEffect(() => {
+    if (location.pathname === "/" && location.hash) {
+      const id = location.hash.replace("#", "");
+
+      setTimeout(() => {
+        const section = document.getElementById(id);
+
+        if (section) {
+          const top = section.getBoundingClientRect().top + window.pageYOffset;
+
+          window.scrollTo({
+            top,
+            behavior: "smooth",
+          });
+        }
+      }, 100);
+    }
+  }, [location]);
 
   const handleLogoClick = (e) => {
     if (location.pathname === "/") {
@@ -92,38 +125,33 @@ function Navbar() {
     after:duration-500
     hover:after:w-full
   `;
+
   return (
     <>
-      <nav className="sticky top-0 w-full z-50 border-b border-slate-200 md:border-0 bg-[#f8f7f5]/90 backdrop-blur-md">
-        <div className="flex items-center justify-between px-4 md:px-12 py-4">
+      <nav className="sticky top-0 z-50 w-full border-b border-slate-200 bg-[#f8f7f5]/90 backdrop-blur-md md:border-0">
+        <div className="flex items-center justify-between px-4 py-4 md:px-12">
           <div className="flex items-center">
             <Link to="/" onClick={handleLogoClick} className="cursor-pointer">
               <Icon />
             </Link>
           </div>
 
-          <ul className="hidden md:flex gap-6 items-center font-[ClashDisplay] text-lg">
+          <ul className="hidden items-center gap-6 font-[ClashDisplay] text-lg md:flex">
             {navLinks.map((link, index) => (
               <li key={index}>
-                {link.to ? (
-                  <Link to={link.to} className={navItemStyles}>
-                    {link.label}
-                  </Link>
-                ) : (
-                  <button
-                    onClick={() => scrollToSection(link.href.replace("#", ""))}
-                    className={navItemStyles}
-                  >
-                    {link.label}
-                  </button>
-                )}
+                <button
+                  onClick={() => scrollToSection(link.href.replace("#", ""))}
+                  className={navItemStyles}
+                >
+                  {link.label}
+                </button>
               </li>
             ))}
           </ul>
 
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className="md:hidden text-[#334155] z-50 cursor-pointer"
+            className="z-50 cursor-pointer text-[#334155] md:hidden"
           >
             {isOpen ? (
               <HiOutlineX size={32} />
@@ -140,30 +168,20 @@ function Navbar() {
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -20 }}
               transition={{ duration: 0.35 }}
-              className="md:hidden absolute top-full left-0 w-full bg-[#f8f7f5] border-b border-slate-200 shadow-lg"
+              className="absolute left-0 top-full w-full border-b border-slate-200 bg-[#f8f7f5] shadow-lg md:hidden"
               ref={menuRef}
             >
               <ul className="flex flex-col gap-6 px-6 py-8 font-[ClashDisplay] text-lg">
                 {navLinks.map((link, index) => (
                   <li key={index}>
-                    {link.to ? (
-                      <Link
-                        to={link.to}
-                        onClick={() => setIsOpen(false)}
-                        className={`${navItemStyles} block`}
-                      >
-                        {link.label}
-                      </Link>
-                    ) : (
-                      <button
-                        onClick={() =>
-                          scrollToSection(link.href.replace("#", ""))
-                        }
-                        className={`${navItemStyles} block text-left`}
-                      >
-                        {link.label}
-                      </button>
-                    )}
+                    <button
+                      onClick={() =>
+                        scrollToSection(link.href.replace("#", ""))
+                      }
+                      className={`${navItemStyles} block text-left`}
+                    >
+                      {link.label}
+                    </button>
                   </li>
                 ))}
               </ul>

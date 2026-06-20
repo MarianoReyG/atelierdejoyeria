@@ -98,7 +98,7 @@ function Workshops() {
           </div>
         </div> */}
 
-        <div className="flex flex-col lg:flex-row gap-10 items-center">
+        <div className="flex flex-col lg:flex-row-reverse gap-10 items-center">
           <motion.img
             src="/a25.jpeg"
             alt=""

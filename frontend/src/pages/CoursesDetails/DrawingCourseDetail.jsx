@@ -52,7 +52,7 @@ function DrawingCourseDetail() {
                 </li>
 
                 <li>
-                  Cupo máximo de <strong>5 estudiantes</strong> por clase.
+                  Cupo máximo de <strong>4 alumnos</strong> por clase.
                 </li>
 
                 <li>Incluye materiales durante todo el curso.</li>

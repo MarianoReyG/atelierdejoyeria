@@ -101,9 +101,9 @@ function InitialCourseDetail() {
               </h2>
 
               <div className="grid sm:grid-cols-2 gap-x-10 gap-y-3 text-gray-700 md:hidden">
-                <p>
-                  <strong>Lunes: Sin disponibilidad.</strong>
-                </p>
+                {/* <p>
+                  <strong>Lunes:</strong>
+                </p> */}
                 <p>
                   <strong>Martes:</strong> 10:00–12:30 / 17:30–20:00
                 </p>
@@ -122,9 +122,9 @@ function InitialCourseDetail() {
               </div>
 
               <div className="hidden md:grid sm:grid-cols-2 gap-x-10 gap-y-3 text-gray-700 ">
-                {/* <p>
-                  <strong>Lunes:</strong>
-                </p> */}
+                <p>
+                  <strong>Lunes:</strong> Sin disponibilidad.
+                </p>
                 <p>
                   <strong>Jueves:</strong> 14:00–16:30 / 17:30–20:00
                 </p>

@@ -37,7 +37,7 @@ function DrawingCourseDetail() {
               </p>
               <p className="mt-4">
                 Podés comenzar en cualquier momento del año.{" "}
-                <strong>Primera clase gratuita.</strong>
+                {/* <strong>Primera clase gratuita.</strong> */}
               </p>
             </section>
             <section className="mt-16">
@@ -69,10 +69,10 @@ function DrawingCourseDetail() {
                 respetando tu ritmo y tus intereses.
               </p>
 
-              <p className="mt-4 text-gray-700 leading-relaxed">
+              {/* <p className="mt-4 text-gray-700 leading-relaxed">
                 El programa es abierto: lo diseñamos juntos/as según los dibujos
                 que quieras desarrollar.
-              </p>
+              </p> */}
             </section>
             <section className="mt-16">
               <h2 className="text-2xl font-[clashDisplay] mb-6">
@@ -80,9 +80,9 @@ function DrawingCourseDetail() {
               </h2>
 
               <div className="grid sm:grid-cols-3 gap-x-10 gap-y-3 text-gray-700">
-                <p>
+                {/* <p>
                   <strong>Lunes:</strong> 17:30–20:00
-                </p>
+                </p> */}
                 <p>
                   <strong>Miércoles:</strong> 17:30–20:00
                 </p>
@@ -93,7 +93,8 @@ function DrawingCourseDetail() {
 
               <p className="text-sm text-gray-500 mt-5">
                 Si no podés asistir a una clase, podés recuperarla dentro del
-                mes según disponibilidad.
+                mes según disponibilidad. Las ausencias sin previo aviso no se
+                recuperan.
               </p>
             </section>
             <section className="mt-16 max-w-2xl">
@@ -111,9 +112,9 @@ function DrawingCourseDetail() {
             <div className="lg:sticky lg:top-24">
               <div className="border-l border-gray-300 pl-8">
                 <div>
-                  <p className="uppercase text-xs tracking-[0.2em] text-gray-500 mb-4">
+                  {/* <p className="uppercase text-xs tracking-[0.2em] text-gray-500 mb-4">
                     Primera clase gratuita
-                  </p>
+                  </p> */}
 
                   <h3 className="text-3xl font-[clashDisplay] leading-tight">
                     Vení a dibujar tus futuras joyas

@@ -131,13 +131,13 @@ function DrawingCourseDetail() {
 
                   <div className="space-y-5">
                     <div>
-                      <p className="text-3xl font-medium">$80.000</p>
+                      <p className="text-3xl font-medium">$90.000</p>
 
                       <p className="text-gray-600">4 clases mensuales</p>
                     </div>
 
                     <div>
-                      <p className="text-xl font-medium">$26.500</p>
+                      <p className="text-xl font-medium">$32.000</p>
 
                       <p className="text-gray-600">Clase suelta</p>
                     </div>

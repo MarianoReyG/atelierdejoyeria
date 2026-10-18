@@ -129,13 +129,13 @@ function InitialCourseDetail() {
                   <strong>Jueves:</strong> 14:00–16:30 / 17:30–20:00
                 </p>
                 <p>
-                  <strong>Martes:</strong> 17:30–20:00
+                  <strong>Martes:</strong> 17:00–19:30
                 </p>
                 <p>
                   <strong>Viernes:</strong> 10:00–12:30 / 14:00–16:30
                 </p>
                 <p>
-                  <strong>Miércoles:</strong> 10:00–12:30
+                  <strong>Miércoles:</strong> 10:00–12:30 / 17:30–20:00
                 </p>
 
                 <p>
